@@ -1,0 +1,24 @@
+{
+  "name": "paquito",
+  "version": "1.0.0",
+  "description": "bot made for lol paques la france chocolat mdr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbraczyk/paquito.git"
+  },
+  "keywords": [
+    "paques",
+    "france",
+    "chocolat"
+  ],
+  "author": "jbraczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbraczyk/paquito/issues"
+  },
+  "homepage": "https://github.com/jbraczyk/paquito#readme"
+}
