@@ -41,7 +41,7 @@ paquito.on('ready', () => {
                         message.awaitReactions(filter, { maxUsers: 1, time: 10000, errors: ['time'] })
                             .then(collected => {
                                 const reactions_users_id = [...collected.first().users.cache.keys()]
-                                console.log(reactions_users_id)
+
                                 const check_if_user_exists = sql.prepare('SELECT * FROM users WHERE discord_id = ' + reactions_users_id[1] + '').get()
 
                                 if (check_if_user_exists === null) {
